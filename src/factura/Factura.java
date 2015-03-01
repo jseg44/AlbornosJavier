@@ -64,7 +64,8 @@ public class Factura {
 				new LineaFactura("P100", "Leche",	0.85f, 	6, 	0 ),
 				new LineaFactura("P200", "Pan",		0.60f, 	1, 	0 ),
 				new LineaFactura("P150", "Tomate",	0.85f, 	2, 	0 ),
-				new LineaFactura("P600", "Cafe",		1.2f, 	1, 	0 )
+				new LineaFactura("P600", "Cafe",		1.2f, 	1, 	0 ),
+				new LineaFactura("P700", "Galletas",		1.3f, 	3, 	0 )
 			};														
 		Factura factura1 = new Factura( "C100",  "Antonio Garcia", lineas);
 		
